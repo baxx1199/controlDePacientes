@@ -48,6 +48,10 @@ public class InicioVista extends javax.swing.JFrame {
         return btnImport;
     }
 
+    public JButton getBtnClose() {
+        return btnClose;
+    }
+
     
     
     
