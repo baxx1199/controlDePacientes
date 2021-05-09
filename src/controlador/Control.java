@@ -171,6 +171,8 @@ public class Control implements ActionListener{
             
         }else if (vistaDeRegistro.getBtnRemove()==e.getSource()) {
             removePatient(pacientes);
+        }else if (vistaDeInicio.getBtnClose()==e.getSource()) {
+           vistaDeInicio.dispose();
         }
     }
     
